@@ -15,11 +15,11 @@ import Footer from './Components/Footer/Footer';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Wrapper>
           <Navbar />
             <Switch>
-              <Route exact path={process.env.PUBLIC_URL+'/'} component={Home}/>
+              <Route exact path='/' component={Home}/>
               {/* <Route exact path='/portfolio' component={Portfolio} />
               <Route exact path='/contact' component={Contact} /> */}
               <Route component = {NoMatch} />

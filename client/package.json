@@ -4,7 +4,7 @@
   "description": "Mern Demo",
   "private": true,
   "proxy": "http://localhost:3001/",
-  "homepage": "https://miktrebla.github.io/albertkim",
+  "homepage": "https://albert-kim.com/",
   "dependencies": {
     "animate.css": "^3.7.0",
     "axios": "^0.18.0",

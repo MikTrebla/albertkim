@@ -40,6 +40,12 @@
     border-left:1px solid black;
 }
 
+.description img {
+    padding-left: 33%;
+    padding-right:33%;
+    max-width: 200px;
+    max-height:200px;
+}
 .description h3 {
     display:block;
     text-align:center;
@@ -65,7 +71,7 @@
 }
 
 .portfolioImg{
-    max-width:250px;
+    max-width:200px;
     max-height:150px;
     text-align:center;
 }
