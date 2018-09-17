@@ -1,0 +1,74 @@
+
+#contactHeader{
+    text-align:center;
+    font-size:35px;
+    padding:0px;
+    margin:0px;
+    text-decoration:underline;
+
+}
+.contactInfo{
+    margin:0px;
+    padding:0px;
+}
+#formContainer {
+    width:500px;
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact-me-header {
+    text-align:center;
+    width:400px;
+    margin:0 auto;
+}
+.contact-form {
+    width:100%;
+    margin: 0 auto;
+    display: block;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.form-group {
+    /* text-align:left; */
+    display:block;
+    margin:0 auto;
+    
+}
+
+label{
+    display: block;
+    width:500px;
+}
+
+input {
+    display:block;
+    padding:0px;
+    border:1px solid black;
+    width:500px;
+}
+
+textarea{
+    width:500px;
+    padding:0px;
+    border:1px solid black;
+}
+
+#submit-form-button {
+    display:block;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align:center;
+    color:white;
+    background-color:black;
+    border-radius:15px;
+    padding:0px;
+    width:500px;
+    border:1px solid black;
+    height:30px;
+}
+
+#mailTo {
+    /* text-decoration:none; */
+    color:black;
+}

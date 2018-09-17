@@ -1,0 +1,71 @@
+#navbar {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height:5vh;
+    padding:0px;
+    margin:0 auto;
+    text-align:center;
+    background-color:white;
+    width:fit-content;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align:Center;
+}
+
+.navbarLi {
+    display:block;
+    margin:auto;
+    width:75px;
+    cursor:pointer;
+}
+
+.navbarLi a:hover{
+    color:black;
+}
+
+.navbarLink {
+    text-decoration: none;
+    color:rgb(41, 101, 231);
+}
+
+.hero-image{
+
+    height:300px;
+    background-image: linear-gradient(rgba(8, 123, 158, 0.8), rgba(8, 123, 158, 0.8)),url('./Assets/Images/jumbo.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+#websiteHead {
+    font-size: 60px;
+    text-align:center;
+    color: white;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+
+#resume {
+    text-align:center;
+    margin: 0 auto;
+}
+
+#resume button{
+    background-color:inherit;
+    border-radius:2px;
+    border:2px solid white;
+    text-align:center;
+    padding:10px;
+    width:300px;
+}
+
+#resume a {
+    margin: 0 auto;
+    display:block;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}

@@ -1,0 +1,82 @@
+#portfolioHeader {
+    text-align:center;
+    font-size:35px;
+    margin:0 auto;
+    text-decoration:underline;
+}
+
+#portfolioGrid{
+    display:grid;
+    grid-template-columns: 100%;
+    text-align:center;
+    padding:5px 0;
+    margin: 0 auto;
+}
+
+.portfolioLi{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin:auto;    
+    text-align:center;
+    height:300px;
+}
+
+#portfolioContainer {
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+.extLink{
+    text-decoration: none;
+    color:inherit;
+}
+
+.description{
+    padding: 15px 0px;
+    text-align:left;
+    font-size:25px;
+    border-left:1px solid black;
+}
+
+.description h3 {
+    display:block;
+    text-align:center;
+    margin:0 auto;
+}
+.description p {
+    font-size:18px;
+    text-align:left;
+    padding-left:10%;
+    padding-right:10%;
+}
+.description a {
+    display:block;
+    font-size:18px;
+    text-align:center;
+    text-decoration: none;
+    color:blue;
+}
+.image{
+    margin-top: auto;
+    margin-bottom:auto;
+    text-align:center;
+}
+
+.portfolioImg{
+    max-width:250px;
+    max-height:150px;
+    text-align:center;
+}
+
+.projectContainer {
+    border:1px black solid;
+    box-shadow:1px 2px gray;
+    border-radius:2px;
+    margin-top:1%;
+    margin-bottom:1%;
+    width:65vw;
+    margin-left:auto;
+    margin-right:auto;
+}

@@ -1,0 +1,35 @@
+#skills-header{
+    font-size:35px;
+    text-align:Center;
+    text-decoration:underline;
+    margin:0 auto;
+}
+
+.skill-set {
+    text-align:center;
+}
+
+#skills-list{
+    width:25vw;
+    margin: 0 auto;
+    text-align:center;
+    padding:0px;
+    margin-bottom:10px;
+}
+
+#skills-list li{
+    border:2px solid white(41, 101, 231);
+    background-color:rgba(196, 194, 194, 0.904);
+    border-radius:2px;
+    list-style-type: none;
+    display:inline-block;
+    margin: 2px 5px;
+    padding:3px;
+    color:rgb(41, 101, 231);
+    
+}
+
+#skills-list li:hover {
+    /* border-color:black; */
+    cursor:default;
+}

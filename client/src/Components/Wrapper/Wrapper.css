@@ -1,0 +1,17 @@
+#wrapper{
+    /* background: url('./Images/396621.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position:center; */
+    /* background-attachment: fixed; */
+    /* background-size:cover; */
+    overflow-y:scroll;
+    /* background-color:white; */
+    /* background: linear-gradient(rgba(10, 151, 252, 0.89),rgba(35,111,167, 30%)); */
+    /* background:rgba(126, 194, 243, 0.7); */
+    height: 100vh;
+    /* width:80%; */
+    text-align:center;
+    /* background: linear-gradient(rgba(113, 205, 241, 0.3),rgba(202, 205, 209, 0.89));  */
+    display:grid;
+    /* grid-template-columns: 5% 90% 5%; */
+}
