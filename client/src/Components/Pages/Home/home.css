@@ -75,3 +75,22 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     margin-top:0;
 }
+
+@media (max-width: 600px) {
+    #about {
+        display:block;
+    }
+    #about p {
+        margin-left: auto;
+        margin-right:auto;
+        display:block;
+        text-align:center;
+    }
+    #skills {
+        display: block;
+        
+    }
+    #about div {
+        display:block;
+    }
+}

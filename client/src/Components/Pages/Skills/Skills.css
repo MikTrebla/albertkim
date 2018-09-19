@@ -33,3 +33,14 @@
     /* border-color:black; */
     cursor:default;
 }
+
+
+@media (max-width: 600px) {
+    #skills-list{
+        width:50vw;
+        margin: 0 auto;
+        text-align:center;
+        padding:0px;
+        margin-bottom:10px;
+    }
+}

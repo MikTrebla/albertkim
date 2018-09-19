@@ -9,7 +9,7 @@
     width:fit-content;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    text-align:Center;
+    text-align:center;
 }
 
 .navbarLi {
@@ -27,7 +27,9 @@
     text-decoration: none;
     color:rgb(41, 101, 231);
 }
-
+.hero-text {
+    text-align:center;
+}
 .hero-image{
 
     height:300px;
@@ -35,6 +37,7 @@
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
+    width: 100%;
 }
 
 #websiteHead {
@@ -68,4 +71,45 @@
     color:white;
     font-size:20px;
     font-weight:bold;
+}
+
+@media (max-width: 1024px) {
+    #navbar {
+        height: 4vh;
+    }
+    .hero-image{
+        width:100vw;
+        margin:0 auto;
+    }
+}
+@media (max-width:550px) {
+    #websiteHead {
+        font-size:45px;
+        width:400px;
+        text-align:center;
+        display:block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:320px) {
+    #websiteHead {
+        font-size:30px;
+        width:400px;
+        text-align:center;
+        display:block;
+        margin: 0 auto;
+    }
+    .hero-image {
+        width:100%;
+        margin: 0 auto;
+    }
+    #resume button{
+        background-color:inherit;
+        border-radius:2px;
+        border:2px solid white;
+        text-align:center;
+        padding:10px;
+        width:200px;
+    }
 }

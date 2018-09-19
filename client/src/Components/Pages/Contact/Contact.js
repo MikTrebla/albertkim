@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import './Contact.css';
-import axios from 'axios';
-import swal from 'sweetalert';
-// import firebase from './Firebase.js';
+// import axios from 'axios';
+// import swal from 'sweetalert';
 
 class Contact extends Component {
     state = {
