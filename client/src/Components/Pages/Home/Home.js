@@ -5,8 +5,8 @@ import Contact from '../Contact';
 import Skills from '../Skills';
 class Home extends Component {
     scrollToTop = () => {
-        const top = document.getElementById('navbar');
-        top.scrollIntoView({block:'start', behavior:'smooth'});
+        const top = document.getElementsByClassName('hero-image');
+        top[0].scrollIntoView({block:'start', behavior:'smooth'});
     }
     render () {
         

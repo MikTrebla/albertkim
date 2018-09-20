@@ -2,14 +2,6 @@
     background-color:white;
 
 }
-/* #headshot {
-    border-radius : 50%;
-    max-width: 15vw;
-    max-height:15vh;
-    margin:auto;
-    display:block;
-} */
-
 hr {
     width:80vw;
     display:block;
@@ -46,11 +38,10 @@ hr {
     text-align:left;    
 }
 #contact {
-    padding: 10px 0px;
-
+    padding:0;
+    padding:none;
     width:100%;
-    margin: 0 auto;
-    /* background-color:rgba(245, 243, 243, 0.904) */
+
 
 }
 #projects {
@@ -61,14 +52,6 @@ hr {
     box-shadow:0px .25px gray;
     background-color:rgba(245, 243, 243, 0.904)
 }
-/* #skills{
-    padding: 10px 0px;
-    width:100%;
-    margin: 0 auto;
-    border-bottom:.25px gray solid;
-    box-shadow:0px 1px gray;
-} */
-
 hr {
     border: 0;
     height: 3px;
@@ -76,7 +59,17 @@ hr {
     margin-top:0;
 }
 
+@media (max-width: 1080px) {
+    .fa-chevron-circle-up{
+        right:2%;
+        bottom:2%;
+    }
+}
 @media (max-width: 600px) {
+    .fa-chevron-circle-up{
+        right:3%;
+        bottom:3%;
+    }
     #about {
         display:block;
     }
@@ -88,7 +81,7 @@ hr {
     }
     #skills {
         display: block;
-        
+
     }
     #about div {
         display:block;

@@ -79,8 +79,6 @@ class Contact extends Component {
                         <button id='submit-form-button' type='submit'>Send</button>
                     </form>
                 </div>
-               
-                {/* <hr></hr> */}
             </div>
         )
     }
