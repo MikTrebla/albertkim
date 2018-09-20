@@ -1,3 +1,10 @@
+#myEmail{
+    text-decoration: underline;
+    font-weight: bolder;
+    border:none;
+    background-color:white;
+    cursor: pointer;
+}
 
 #contactHeader{
     text-align:center;

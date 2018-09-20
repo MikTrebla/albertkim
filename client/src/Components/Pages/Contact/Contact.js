@@ -17,7 +17,17 @@ class Contact extends Component {
             [name]:value
         })
     }
-
+    copyToClipboard = (event) => {
+        event.preventDefault();
+        const copiedText = document.createElement('textarea');
+        copiedText.value='AlbertKim0722@gmail.com'
+        document.body.appendChild(copiedText);
+        copiedText.select();
+        document.execCommand("copy");
+        alert(`Copied ${copiedText.value} to the clipboard.`)
+        document.body.removeChild(copiedText);
+    }
+ 
     // handleFormSubmit = (event) => {
     //     event.preventDefault();
          
@@ -49,14 +59,18 @@ class Contact extends Component {
 
     }
     render () {
-        let mailto = <a id='mailTo' href={`https://mail.google.com/mail/?view=cm&fs=1&to=AlbertKim0722@gmail.com&su=SUBJECT&body=BODY`} target="_blank">AlbertKim0722@gmail.com</a>
         return (
             <div id = "formContainer">
                 <h3 id='contactHeader'>Contact</h3>
                 <div>
                     <div id="contact-me-header">
                         <p className='contactInfo'>
-                            If you wish to contact me, please use the form below or contact me at {mailto}
+                            If you wish to contact me, please use the form below or contact me at 
+                            { 
+                                <button id ='myEmail' onClick={this.copyToClipboard}>
+                                    my email address.
+                                </button>
+                            }
                         </p>
                     </div>
                     <form action="https://formspree.io/albertkim0722@gmail.com" method="POST" className='contact-form'>
