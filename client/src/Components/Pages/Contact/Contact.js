@@ -67,7 +67,7 @@ class Contact extends Component {
                         <p className='contactInfo'>
                             If you wish to contact me, please use the form below or contact me at 
                             { 
-                                <button id ='myEmail' onClick={this.copyToClipboard}>
+                                <button id ='myEmail' title='Click to copy email' onClick={this.copyToClipboard}>
                                     my email address.
                                 </button>
                             }

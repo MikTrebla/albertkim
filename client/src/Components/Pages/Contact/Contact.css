@@ -10,7 +10,7 @@
     text-align:center;
     font-size:35px;
     padding:0px;
-    margin:0px;
+    margin:0 auto;
     text-decoration:underline;
 
 }
@@ -123,11 +123,10 @@ textarea{
     }
 }
 @media (max-width:430px) {
-    
-    #contact-me-header {
-        width:200px;
-        margin: 0 auto;
+    #formContainer {
+        width:350px;
     }
+    
     label {
         width:200px;
         margin: 0 auto;
@@ -147,16 +146,14 @@ textarea{
     }
 }
 @media (max-width: 390px) {
-    #formContainer {
-        width:150px;
-    }
+    
     #contact-me-header {
         text-align:center;
         width:150px;
         display:block;
     }
     label {
-        width:300px;
+        width:150px;
     }
     input {
         width:150px;
@@ -168,7 +165,6 @@ textarea{
     }
     #submit-form-button {
         width:150px;
-        margin-left:0;
     }
 }
 @media (max-width: 320px) {
