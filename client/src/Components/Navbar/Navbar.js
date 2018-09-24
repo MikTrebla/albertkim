@@ -39,8 +39,8 @@ class Navbar extends Component {
                         <div id='slideNav'>
                             <a className='closeNav'onClick={this.closeNav}>&times;</a>
                             <a name='about' onClick={this.handleChange}>About</a>
-                            <a name='projects' onClick={this.handleChange}>Projects</a>
                             <a name='skills' onClick={this.handleChange}>Skills</a>
+                            <a name='projects' onClick={this.handleChange}>Projects</a>
                             <a name='contact' onClick={this.handleChange}>Contact</a>
                             <ul id='social'>
                     <li id='linkedIn'>
@@ -57,12 +57,12 @@ class Navbar extends Component {
                                 >About</a>
                             </li>
                             <li className='navbarLi'>
-                                <a  name ='projects'className='navbarLink' onClick={this.handleChange}
-                                >Projects</a>
-                            </li>
-                            <li className='navbarLi'>
                                 <a name='skills' className='navbarLink' onClick={this.handleChange}>
                                 Skills</a>
+                            </li>
+                            <li className='navbarLi'>
+                                <a  name ='projects'className='navbarLink' onClick={this.handleChange}
+                                >Projects</a>
                             </li>
                             <li className='navbarLi'>
                                 <a name ='contact' className='navbarLink'onClick={this.handleChange}>
