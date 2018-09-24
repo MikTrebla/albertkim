@@ -51,7 +51,6 @@ class Portfolio extends Component {
                                             <li>Node.js</li>
                                             <li>MongoDB</li>
                                             <li>REST API</li>
-                                            <li>Bootstrap</li>
                                             <li>CSS</li>
                                             <li>HTML5</li>
                                             <li>ES6</li>
