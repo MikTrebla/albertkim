@@ -128,20 +128,20 @@ textarea{
     }
     
     label {
-        width:200px;
+        width:300px;
         margin: 0 auto;
     }
     input {
-        width:200px;
+        width:300px;
         margin: 0 auto;
     }
     
     textarea{
-        width:200px;
+        width:300px;
         margin: 0 auto;
     }
     #submit-form-button {
-        width:200px;
+        width:300px;
         margin: 0 auto;
     }
 }
@@ -149,52 +149,27 @@ textarea{
     
     #contact-me-header {
         text-align:center;
-        width:150px;
+        width:250px;
         display:block;
     }
     label {
-        width:150px;
+        width:250px;
     }
     input {
-        width:150px;
+        width:250px;
     }
     
     textarea{
-        width:150px;
+        width:250px;
         display:block;
     }
     #submit-form-button {
-        width:150px;
+        width:250px;
     }
 }
 @media (max-width: 320px) {
-    
-    #contact-me-header {
-        width:125px;
-        margin: 0 auto;
-        display:block;
-        font-size:10px;
-    }
-    label {
-        width:125px;
-        display:block;
-        margin: 0 auto;
-        font-size:10px;
-
-    }
-    input {
-        width:125px;
-        display:block;
-        margin: 0 auto;
-        font-size:10px;
-
+    #formContainer {
+        width:300px;
     }
     
-    textarea{
-        width:125px;
-    }
-    #submit-form-button {
-        width:125px;
-        margin: 0 auto;
-    }
 }

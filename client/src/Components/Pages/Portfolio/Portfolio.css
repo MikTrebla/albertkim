@@ -1,3 +1,22 @@
+#app-techs{
+    width:25vw;
+    margin: 0 auto;
+    text-align:center;
+    padding:0px;
+    margin-bottom:10px;
+}
+
+#app-techs li{
+    border:2px solid white(41, 101, 231);
+    background-color:rgba(196, 194, 194, 0.904);
+    border-radius:2px;
+    list-style-type: none;
+    display:inline-block;
+    margin: 2px 5px;
+    padding:3px;
+    color:rgb(41, 101, 231);
+    
+}
 #portfolioHeader {
     text-align:center;
     font-size:35px;
@@ -20,7 +39,7 @@
     margin-bottom:auto;
     margin:auto;    
     text-align:center;
-    height:300px;
+    /* height:300px; */
 }
 
 #portfolioContainer {
@@ -28,10 +47,7 @@
     padding-bottom:0px;
 }
 
-.extLink{
-    text-decoration: none;
-    color:inherit;
-}
+
 
 .description{
     padding: 15px 0px;
@@ -83,6 +99,14 @@
     width:65vw;
     margin-left:auto;
     margin-right:auto;
+}
+
+.extLink{
+    text-decoration: none;
+    color:inherit;
+    margin:0 auto;
+    text-align:center;
+    display:inline;
 }
 
 @media (max-width: 1775px) {
@@ -163,7 +187,7 @@
 
 @media (max-width: 630px) {
     .portfolioImg{
-        max-width:100px;
+        max-width:150px;
         max-height:350px;
     }
     .description img {
@@ -177,11 +201,25 @@
     .description a{
         font-size:12px;
     }
+    .portfolioLi{
+        display: grid;
+        grid-template-rows: 100px auto;
+        grid-template-columns: auto;
+        margin-top:auto;
+        margin-bottom:auto;
+        margin:auto;    
+        text-align:center;
+    }
+
+    .description {
+        border-top: black solid 1px;
+        border-left:none;
+    }
 }
 
 @media (max-width: 520px) {
     .portfolioImg{
-        max-width:90px;
+        max-width:150px;
         max-height:350px;
     }
     .description img {
@@ -198,8 +236,11 @@
 }
 
 @media (max-width: 460px) {
+    .description {
+        padding-top: 5px;
+    }
     .portfolioImg{
-        max-width:80px;
+        max-width:150px;
         max-height:350px;
     }
     .description img {
@@ -213,11 +254,15 @@
     .description a{
         font-size:10px;
     }
+    #app-techs {
+        width:200px;
+    }
+
 }
 
 @media (max-width: 400px) {
     .portfolioImg{
-        max-width:70px;
+        max-width:150px;
         max-height:350px;
     }
     .description img {
@@ -235,7 +280,7 @@
 
 @media (max-width: 360px) {
     .portfolioImg{
-        max-width:55px;
+        max-width:150px;
         max-height:350px;
     }
     .description img {
@@ -249,4 +294,8 @@
     .description a{
         font-size:10px;
     }
+    #app-techs {
+        width:125px;
+    }
+
 }

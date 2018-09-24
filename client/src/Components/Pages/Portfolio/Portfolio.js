@@ -39,7 +39,24 @@ class Portfolio extends Component {
                                         <img src={require(`./Images/lookncook.png`)} alt='lookncook'></img>
                                     </container>
                                    
-                                    <p>A recipe web application that allows users to search, save, view, and share their own personal recipes. Features interactive timers that are detected through the recipe instructions.</p>
+                                    <p>
+                                        A recipe web application that allows users to search, save, view, and share their own personal recipes. Features interactive timers that are detected through the recipe instructions.
+                                    </p>
+                                    <p>
+                                        This app was built with the following technologies: 
+                                        <ul id='app-techs'>
+                                            <li>Javascript</li>
+                                            <li>Express.js</li>
+                                            <li>React.js</li>
+                                            <li>Node.js</li>
+                                            <li>MongoDB</li>
+                                            <li>REST API</li>
+                                            <li>Bootstrap</li>
+                                            <li>CSS</li>
+                                            <li>HTML5</li>
+                                            <li>ES6</li>
+                                        </ul>
+                                    </p>
                                     <a className='extLink' href='https://lookncook.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website
                                     </a>
                                     <a className='extLink' href='https://github.com/bnsnchz/lookncook' target = '_blank' rel='noopener noreferrer'>Github</a>
@@ -63,7 +80,24 @@ class Portfolio extends Component {
                                     <container>
                                         <img src={require(`./Images/logo.ethr.new.jpg`)}  alt='ethr'></img>
                                     </container>
-                                    <p>Utilizes a game database API which allows users to search and post reviews on specific game titles.</p>
+                                    <p>
+                                        Utilizes a game database API which allows users to search and post reviews on specific game titles.
+                                    </p>
+                                    <p>
+                                        This app was built with the following technologies: 
+                                        <ul id='app-techs'>
+                                            <li>Javascript</li>
+                                            <li>jQuery</li>
+                                            <li>Express.js</li>
+                                            <li>Node.js</li>
+                                            <li>MySQL</li>
+                                            <li>REST API</li>
+                                            <li>Handlebars</li>
+                                            <li>CSS</li>
+                                            <li>HTML5</li>
+                                            <li>ES6</li>
+                                        </ul>
+                                    </p>
                                     <a className='extLink' href='https://ethr.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website
                                     </a>
                                     <a className='extLink' href='https://github.com/MikTrebla/Project-2' target = '_blank' rel='noopener noreferrer'>Github</a>
