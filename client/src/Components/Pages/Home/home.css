@@ -77,13 +77,29 @@ hr {
         margin-left: auto;
         margin-right:auto;
         display:block;
-        text-align:center;
+        text-align:left;
+        font-size:12px;
+        width:500px;
+        max-width: 80vw;
     }
     #skills {
         display: block;
+        font-size:12px;
 
     }
     #about div {
         display:block;
+    }
+}
+
+@media (max-width: 480px) {
+    #about p {
+        width:400px;
+    }
+}
+
+@media (max-width: 360px) {
+    #about p {
+        width:300px;
     }
 }
