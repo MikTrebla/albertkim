@@ -34,14 +34,18 @@
 
 .portfolioLi{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     margin-top:auto;
     margin-bottom:auto;
-    margin:auto;    
+  
     text-align:center;
     /* height:300px; */
 }
-
+.portfolioImg{
+    width:90%;
+    max-height:350px;
+    text-align:center;
+}
 #portfolioContainer {
     margin-bottom:0px;
     padding-bottom:0px;
@@ -50,6 +54,7 @@
 
 
 .description{
+    width:100%;
     padding: 15px 0px;
     text-align:center;
     font-size:25px;
@@ -66,6 +71,7 @@
     margin:0 auto;
 }
 .description p {
+    
     font-size:18px;
     text-align:left;
     padding-left:10%;
@@ -84,11 +90,7 @@
     text-align:center;
 }
 
-.portfolioImg{
-    max-width:350px;
-    max-height:350px;
-    text-align:center;
-}
+
 
 .projectContainer {
     border:1px black solid;
@@ -109,43 +111,32 @@
     display:inline;
 }
 
-@media (max-width: 1775px) {
-    .portfolioImg{
-        max-width:300px;
-        max-height:350px;
-    }
-}
 
-@media (max-width: 1550px) {
-    .portfolioImg{
-        max-width:250px;
-        max-height:350px;
-    }
-}
+
 
 @media (max-width: 1280px) {
-    .portfolioImg{
-        max-width:200px;
-        max-height:350px;
+    .portfolioLi{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top:auto;
+        margin-bottom:auto;
+        margin:auto;    
+        text-align:center;
+        /* height:300px; */
     }
     .description img {
-        max-width: 200px;
-        max-height:100px;
+        max-width: 90%;
     }
 }
 
 @media (max-width: 1030px) {
     .portfolioImg{
-        max-width:150px;
-        max-height:350px;
+        width:80%
     }
     .description {
         padding-top: 50px;
     }
-    .description img {
-        max-width: 150px;
-        max-height:90px;
-    }
+ 
 
     .description p{
         font-size:16px;
@@ -157,12 +148,11 @@
 
 @media (max-width: 768px) {
     .portfolioImg{
-        max-width:125px;
-        max-height:350px;
+        width:60%;
+        margin-top: 1px;
     }
     .description img {
-        max-width: 125px;
-        max-height:90px;
+        max-width: 80%;
     }
 
     .description p{
@@ -170,32 +160,11 @@
     }
     .description a{
         font-size:14px;
-    }
-}
-
-@media (max-width: 630px) {
-    .portfolioImg{
-        max-width:150px;
-        max-height:350px;
-    }
-    .description img {
-        max-width: 100px;
-        max-height:90px;
-    }
-
-    .description p{
-        font-size:12px;
-    }
-    .description a{
-        font-size:12px;
     }
     .portfolioLi{
         display: grid;
-        grid-template-rows: 100px auto;
+        grid-template-rows: auto auto;
         grid-template-columns: auto;
-        margin-top:auto;
-        margin-bottom:auto;
-        margin:auto;    
         text-align:center;
     }
 
@@ -205,16 +174,22 @@
     }
 }
 
+@media (max-width: 630px) {
+    
+
+    .description p{
+        font-size:12px;
+    }
+    .description a{
+        font-size:12px;
+    }
+    
+}
+
 @media (max-width: 520px) {
     .portfolioImg{
-        max-width:150px;
-        max-height:350px;
+        width:65%;
     }
-    .description img {
-        max-width: 90px;
-        max-height:80px;
-    }
-
     .description p{
         font-size:10px;
     }
@@ -224,17 +199,29 @@
 }
 
 @media (max-width: 460px) {
-    .description {
-        padding-top: 5px;
-    }
     .portfolioImg{
-        max-width:150px;
-        max-height:350px;
+        width:80%;
     }
-    .description img {
-        max-width: 90px;
-        max-height:80px;
+    
+    .description p{
+        font-size:10px;
     }
+    .description a{
+        font-size:10px;
+    }
+    #app-techs {
+        width:80%;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .portfolioImg{
+        width:90%;
+
+    }
+
+    
 
     .description p{
         font-size:10px;
@@ -243,47 +230,22 @@
         font-size:10px;
     }
     #app-techs {
-        width:200px;
+        width:70%;
     }
-
+    
 }
 
-@media (max-width: 400px) {
-    .portfolioImg{
-        max-width:150px;
-        max-height:350px;
+@media (max-width: 375px) {
+    .portfolioImg {
+        width:90%;
     }
-    .description img {
-        max-width: 70px;
-        max-height:80px;
-    }
-
+ 
     .description p{
         font-size:10px;
     }
     .description a{
         font-size:10px;
     }
-}
-
-@media (max-width: 360px) {
-    .portfolioImg{
-        max-width:150px;
-        max-height:350px;
-    }
-    .description img {
-        max-width: 50px;
-        max-height:80px;
-    }
-
-    .description p{
-        font-size:10px;
-    }
-    .description a{
-        font-size:10px;
-    }
-    #app-techs {
-        width:125px;
-    }
+    
 
 }

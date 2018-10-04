@@ -17,12 +17,12 @@ span {
     color:rgb(0, 0, 0);
     cursor:pointer;
     position:fixed;
+    top:50%;
     left:0;
 }
 #slideNav {
     display:none;
     height: 100%;
-    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -30,7 +30,7 @@ span {
     background-color: rgb(201, 218, 241);
     overflow-x: hidden;
     transition: 0.8s;
-    padding-top: 60px;
+    padding-top: 260px;
 }
 #slideNav a {
     padding: 8px 8px 8px 32px;
@@ -113,9 +113,7 @@ span {
     font-weight:bold;
 }
 @media (max-width: 1024px) {
-    /* #navbar {
-        height: 4vh;
-    } */
+
     .hero-image{
         width:100%;
         margin:0 auto;

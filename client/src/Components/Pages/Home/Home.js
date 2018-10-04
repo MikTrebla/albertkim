@@ -17,16 +17,16 @@ class Home extends Component {
                             <div>
                                 <h3>About</h3>
                                 <p>
-                                    Hello, my name is Albert Kim and I am a Web Developer based in the Los Angeles area. In May 2018, I started my journey to train to become a full-stack web developer at the UCLA-Extension Full-Stack Web Development Boot Camp.
-                                <br></br>
-                                <br></br>
-                                    3 Months after the program, I am able to design full-stack MERN web applications, as well as understanding basic computer science theory. Below, you will see the projects I have worked on.
+                                    Hello, my name is Albert Kim and I am a Web Developer based in the Los Angeles area. Currently, I am using  a MERN stack to build my applications. I am passionate about web development and learning new languages and technolgies.
                                 </p>
                             </div>
+
                             <div id='skills'>
                                 <Skills />  
                             </div>
+
                         </div>
+
                         <div id='projects'>
                             <Portfolio />
                         </div>
@@ -34,9 +34,12 @@ class Home extends Component {
                         <div name='contact' id='contact'>
                             <Contact/>
                         </div>
+
                         <hr></hr>
+
                         <i onClick={this.scrollToTop} className="fas fa-chevron-circle-up">
                         </i>
+
                     </div>
             </div>
         )

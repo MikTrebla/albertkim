@@ -23,14 +23,13 @@ class Portfolio extends Component {
                         <div className='projectContainer'>
                             <li className='portfolioLi'>
                                 <div className='image'>
-                                    <div>
+
                                     <img className = 'portfolioImg'
                                             // onMouseOver={(event) => {this.onMouseEnter(event,require(`./Images/LnC(gif).gif`))}} 
                                             // onMouseOut={(event)=> {this.onMouseLeave(event,require(`./Images/lookncook.png`))}}
                                         src={require(`./Images/LnC(gif).gif`)} 
                                         alt='lookncook'>
                                     </img>
-                                    </div>
                                     
                                 </div>
                                 <div className='description'>
@@ -65,14 +64,14 @@ class Portfolio extends Component {
                         <div className='projectContainer'>
                             <li className='portfolioLi'>
                                 <div className='image'>
-                                    <div>
+
                                         <img className = 'portfolioImg' 
                                                 // onMouseOver={(event)=>{this.onMouseEnter(event,require(`./Images/ETHR(gif).gif`))}} 
                                                 // onMouseOut={(event)=>{this.onMouseLeave(event,require(`./Images/logo.png`))}} 
                                             src={require(`./Images/ETHR(gif).gif`)} 
                                             alt='ethr'>
                                         </img>
-                                    </div>
+
                                 </div>
                                 <div className='description'>
                                     {/* <h3>ETHR</h3> */}

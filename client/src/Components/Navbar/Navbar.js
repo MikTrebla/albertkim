@@ -35,7 +35,7 @@ class Navbar extends Component {
             <div>
                 <div className="hero-image">
                     <div className="hero-text">
-                        <span onClick={this.openNav}>&#9776; Menu</span>
+                        <span onClick={this.openNav}><i title='Mobile Menu' class="fas fa-chevron-circle-right"></i></span>
                         <div id='slideNav'>
                             <a className='closeNav'onClick={this.closeNav}>&times;</a>
                             <a name='about' onClick={this.handleChange}>About</a>
