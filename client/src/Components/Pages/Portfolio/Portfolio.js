@@ -19,7 +19,46 @@ class Portfolio extends Component {
             <div id='portfolioContainer'>
                 <h3 id='portfolioHeader'> Projects </h3>
                 <div>
-                    <ul id='portfolioGrid'>
+                    <ul id='portfolioGrid'> <div className='projectContainer'>
+                            <li className='portfolioLi'>
+                                <div className='image'>
+
+                                    <img className = 'portfolioImg'
+                                            
+                                        
+                                        alt='fiction-jeans'>
+                                    </img>
+                                    
+                                </div>
+                                <div className='description'>
+                                    {/* <h3>Look & Cook</h3>   */}
+                                    <container>
+                                        <img  alt='fiction-jeans'></img>
+                                    </container>
+                                    <h3>Work in progress.</h3>
+                                    <p>
+                                      A fictional fashion store which will allow the admin to add items and allow consumers to purchase items from the web page.
+                                    </p>
+                                    <p>
+                                        This app was built with the following technologies: 
+                                        <ul id='app-techs'>
+                                            <li>Javascript</li>
+                                            <li>Express.js</li>
+                                            <li>React.js</li>
+                                            <li>Node.js</li>
+                                            <li>MongoDB</li>
+                                            <li>REST API</li>
+                                            <li>CSS</li>
+                                            <li>HTML5</li>
+                                            <li>ES6</li>
+                                        </ul>
+                                    </p>
+                                    <a className='extLink' href='https://fictionjeans.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website
+                                    </a>
+                                    <a className='extLink' href='https://github.com/MikTrebla/fiction-jeans' target = '_blank' rel='noopener noreferrer'>Github</a>
+                                </div>
+                            </li>
+                        </div>
                         <div className='projectContainer'>
                             <li className='portfolioLi'>
                                 <div className='image'>
