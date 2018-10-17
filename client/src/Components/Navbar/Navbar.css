@@ -20,6 +20,20 @@ span {
     top:50%;
     left:0;
 }
+span:hover{
+    animation:sidebar 1s;
+    animation-iteration-count: inherit;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes sidebar {
+
+	100% {
+		-webkit-transform: translateX(10px);
+		-moz-transform: translateX(10px);
+		-ms-transform: translateX(10px);
+		transform: translateX(10px)
+	}
+}
 #slideNav {
     display:none;
     height: 100%;
@@ -130,9 +144,9 @@ span {
     .hero-text {
         width:100%;
     }
-    span {
+    /* span {
         display:block;
-    }
+    } */
     #navbar {
         display:none;
     }

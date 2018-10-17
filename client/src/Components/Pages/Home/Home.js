@@ -4,12 +4,8 @@ import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Skills from '../Skills';
 class Home extends Component {
-    scrollToTop = () => {
-        const top = document.getElementsByClassName('hero-image');
-        top[0].scrollIntoView({block:'start', behavior:'smooth'});
-    }
+
     render () {
-        
         return (
             <div id='body-container'>
                 <div id='content'>
@@ -37,8 +33,7 @@ class Home extends Component {
 
                         <hr></hr>
 
-                        <i onClick={this.scrollToTop} className="fas fa-chevron-circle-up">
-                        </i>
+                        
 
                     </div>
             </div>

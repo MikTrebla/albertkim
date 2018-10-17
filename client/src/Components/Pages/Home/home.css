@@ -8,13 +8,7 @@ hr {
 }
 
 
-.fa-chevron-circle-up{
-    position:fixed;
-    bottom:1%;
-    right:1%;
-    font-size:30px;
-    cursor:pointer;
-}
+
 
 #about {
     width:100%;
@@ -59,17 +53,8 @@ hr {
     margin-top:0;
 }
 
-@media (max-width: 1080px) {
-    .fa-chevron-circle-up{
-        right:2%;
-        bottom:2%;
-    }
-}
 @media (max-width: 600px) {
-    .fa-chevron-circle-up{
-        right:3%;
-        bottom:3%;
-    }
+
     #about {
         display:block;
     }
@@ -92,9 +77,7 @@ hr {
     }
 }
 @media (max-width: 550px) {
-    .fa-chevron-circle-up{
-        display:none;
-    }
+
 }
 @media (max-width: 480px) {
     #about p {

@@ -77,6 +77,13 @@
     padding-left:10%;
     padding-right:10%;
 }
+.description ul {
+    
+    font-size:18px;
+    text-align:left;
+    padding-left:10%;
+    padding-right:10%;
+}
 .description a {
     display:block;
     font-size:18px;
@@ -141,6 +148,9 @@
     .description p{
         font-size:16px;
     }
+    .description ul {
+        font-size:16px;
+    }
     .description a{
         font-size:16px;
     }
@@ -157,6 +167,10 @@
 
     .description p{
         font-size:14px;
+    }
+    .description ul {
+        font-size:14px;
+
     }
     .description a{
         font-size:14px;
@@ -176,7 +190,9 @@
 
 @media (max-width: 630px) {
     
-
+    .description ul {
+        font-size:12px;
+    }
     .description p{
         font-size:12px;
     }
@@ -190,6 +206,10 @@
     .portfolioImg{
         width:65%;
     }
+    .description ul {
+        font-size:10px;
+    }
+
     .description p{
         font-size:10px;
     }
@@ -201,6 +221,9 @@
 @media (max-width: 460px) {
     .portfolioImg{
         width:80%;
+    }
+    .description ul {
+        font-size:10px;
     }
     
     .description p{
@@ -222,7 +245,10 @@
     }
 
     
-
+    .description ul {
+        font-size:10px;
+    }
+    
     .description p{
         font-size:10px;
     }
@@ -239,7 +265,9 @@
     .portfolioImg {
         width:90%;
     }
- 
+    .description ul {
+        font-size:10px;
+    }
     .description p{
         font-size:10px;
     }

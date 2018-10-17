@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import './Footer.css';
 class Footer extends Component {
+    
+    scrollToTop = () => {
+        const top = document.getElementsByClassName('hero-image');
+        top[0].scrollIntoView({block:'start', behavior:'smooth'});
+    }
     render () {
         return (
             <div>
@@ -11,7 +16,12 @@ class Footer extends Component {
                     <li id='github'>
                         <a href='https://github.com/MikTrebla' title='Github' target='_blank' rel='noopener noreferrer'><i className="fab fa-github-square"></i></a>
                     </li>
+                    <li>
+                    <i id='toTop'onClick={this.scrollToTop} className='fas fa-chevron-circle-up'>
+                </i>
+                    </li>
                 </ul>
+                
             </div>
           
         )

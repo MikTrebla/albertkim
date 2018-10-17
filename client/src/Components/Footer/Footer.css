@@ -21,3 +21,41 @@
     padding-right:5px;
     color:black;
 }
+
+.fa-chevron-circle-up{
+    /* position:absolute; */
+    /* bottom:1%;
+    right:1%; */
+    font-size:30px;
+    cursor:pointer;
+}
+.fa-chevron-circle-up:hover{
+    animation:gototop 1s infinite;
+    -moz-animation: gototop 1s infinite;
+    -o-animation: gototop 1s infinite;
+    -webkit-animation: gototop 1s infinite;
+}
+
+@keyframes gototop {
+    0% {
+        -webkit-transform: translateY(-5px);
+		-moz-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        -o-transform: translateY(-5px);
+		transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(-10px);
+		-moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+		transform: translateY(-10px);
+    }
+	100% {
+		-webkit-transform: translateY(-5px);
+		-moz-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        -o-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
