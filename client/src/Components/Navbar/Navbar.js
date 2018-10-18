@@ -4,54 +4,38 @@ import './Navbar.css';
 
 class Navbar extends Component {
     state = {
-        target: ''
+        target: '',
+        open:false
     }
-       
+   
     handleChange = (event) => {
         this.setState({
           target: event.target.name
+        }, () => {
+            const element = document.getElementById(this.state.target);
+            element.scrollIntoView({block:'start',behavior: 'smooth'});
         });
-        this.closeNav();
+        this.handleMenuToggle();
     }
 
-    componentDidUpdate = () => {
-        const element = document.getElementById(this.state.target);
-        element.scrollIntoView({block:'start',behavior: 'smooth'});
-    }
-    openNav = () => {
-        document.getElementById("slideNav").style.width = "250px";
-        document.getElementById('slideNav').style.display = "block";
-        document.getElementById('slideNav').style.transition = "1s";
 
+    handleMenuToggle = () => {
+        this.showMenu();
     }
-    closeNav = () => {
-        document.getElementById("slideNav").style.width = "0"
-        document.getElementById('slideNav').style.display = "none";
-
+    showMenu = () => {
+        this.setState({
+            open:!this.state.open
+        })
     }
-
     render () {
         return (
-            <div>
-                <div className="hero-image">
-                    <div className="hero-text">
-                        <span onClick={this.openNav}><i title='Mobile Menu' className="fas fa-chevron-circle-right"></i></span>
-                        <div id='slideNav'>
-                            <a className='closeNav'onClick={this.closeNav}>&times;</a>
-                            <a name='about' onClick={this.handleChange}>About</a>
-                            <a name='skills' onClick={this.handleChange}>Skills</a>
-                            <a name='projects' onClick={this.handleChange}>Projects</a>
-                            <a name='contact' onClick={this.handleChange}>Contact</a>
-                            <ul id='social'>
-                    <li id='linkedIn'>
-                        <a href ='https://www.linkedin.com/in/albertakim' title='LinkedIn' target ='_blank' rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                    </li>
-                    <li id='github'>
-                        <a href='https://github.com/MikTrebla' title='Github' target='_blank' rel='noopener noreferrer'><i className="fab fa-github-square"></i></a>
-                    </li>
-                </ul>
-                        </div>
-                        <ul className='animated fadeInDown' id='navbar'>
+            <div id='slide'>
+                <button onClick = {this.handleMenuToggle}className={this.state.open?"menu-toggle close-toggle":"menu-toggle"}>
+                        <i className="fa fa-plus"></i>
+                    </button>
+                <div id='menu'>
+                    <div  className={this.state.open?'animate-menu visible':'animate-menu hidden'}>
+                        <ul id='navbar'>
                             <li className='navbarLi'>
                                 <a name ='about'className='navbarLink' onClick={this.handleChange}
                                 >About</a>
@@ -69,23 +53,24 @@ class Navbar extends Component {
                                 Contact
                                 </a>
                             </li>
+                            <ul className='socials'>
+                            <li className='navbarLi socials'>
+                                <a href ='https://www.linkedin.com/in/albertakim' title='LinkedIn'target ='_blank' rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                            </li>
+                            <li className='navbarLi socials'>
+                                <a href='https://github.com/MikTrebla' title='Github' target='_blank' rel='noopener noreferrer'><i className="fab fa-github-alt"></i></a>
+                            </li>
+                            <li className='navbarLi socials'>
+                                <a href={require('./Assets/Resume(PDF).pdf')} target='_blank'><i title='Resume(PDF)' className="fas fa-file-alt"></i>
+                                </a>
+                            </li>
+                            </ul>
+                            
                         </ul>
-                    </div>
-                    <div className='hero-text'>
-                        <h1 id='websiteHead'>
-                            Albert Kim
-                            <br></br>
-                            Web Developer
-                        </h1>
-                    </div>
-                    <div id='resume'>
-                        <button>
-                            <a href={require('./Assets/Resume(PDF).pdf')} target='_blank'>Resume(PDF)
-                            </a>
-                        </button>
                     </div>
                 </div>
             </div>
+            
           
         )
     }

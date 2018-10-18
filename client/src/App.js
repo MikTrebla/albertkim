@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Pages/Home';
 // import Portfolio from './Components/Pages/Portfolio';
 // import Contact from './Components/Pages/Contact';
+import Landing from './Components/Landing';
 import NoMatch from './Components/Pages/NoMatch';
 import "./App.css";
 import './Components/Pages/Contact/Contact.css'
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Wrapper>
+          <Landing />
           <Navbar />
             <Switch>
               <Route exact path='/' component={Home}/>

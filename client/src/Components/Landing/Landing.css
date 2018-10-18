@@ -1,0 +1,12 @@
+.zoomInRight {
+    animation-delay:.5s;
+}
+
+.zoomInLeft {
+    animation-delay:1s;
+}
+
+.fa-arrow-down {
+    /* animation-duration:1s; */
+    animation-iteration-count: infinite;
+}

@@ -1,31 +1,13 @@
 
-#social {
+#footer {
     text-align:center;
     display:block;
     font-size:40px;
     margin:0 auto;
     padding-left:0px;
 }
-#linkedIn {
-    display:inline-block;
-}
-#github{
-    display:inline-block;
-}
-
-.fa-linkedin{
-    color:black;
-    padding-right:5px;
-}
-.fa-github-square {
-    padding-right:5px;
-    color:black;
-}
 
 .fa-chevron-circle-up{
-    /* position:absolute; */
-    /* bottom:1%;
-    right:1%; */
     font-size:30px;
     cursor:pointer;
 }

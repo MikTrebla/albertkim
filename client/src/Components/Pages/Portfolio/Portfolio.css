@@ -14,7 +14,7 @@
     display:inline-block;
     margin: 2px 5px;
     padding:3px;
-    color:rgb(41, 101, 231);
+    color:black;
     
 }
 #portfolioHeader {
@@ -25,24 +25,24 @@
 }
 
 #portfolioGrid{
-    display:grid;
-    grid-template-columns: 100%;
+    /* display:grid;
+    grid-template-columns: 100%; */
     text-align:center;
     padding:5px 0;
     margin: 0 auto;
 }
 
 .portfolioLi{
-    display: grid;
-    grid-template-columns: 40% 60%;
+    /* display: grid;
+    grid-template-areas: 40% 60%; */
     margin-top:auto;
     margin-bottom:auto;
-  
     text-align:center;
     /* height:300px; */
+    list-style-type: none;
 }
 .portfolioImg{
-    width:90%;
+    /* width:90%; */
     max-height:350px;
     text-align:center;
 }
@@ -58,7 +58,7 @@
     padding: 15px 0px;
     text-align:center;
     font-size:25px;
-    border-left:1px solid black;    
+    /* border-left:1px solid black;     */
 }
 
 .description img {
@@ -89,7 +89,7 @@
     font-size:18px;
     text-align:center;
     text-decoration: none;
-    color:blue;
+    color:black;
 }
 .image{
     margin-top: auto;
@@ -100,9 +100,9 @@
 
 
 .projectContainer {
-    border:1px black solid;
+    /* border:1px black solid;
     box-shadow:1px 2px gray;
-    border-radius:2px;
+    border-radius:2px; */
     margin-top:1%;
     margin-bottom:1%;
     width:65vw;
@@ -123,8 +123,8 @@
 
 @media (max-width: 1280px) {
     .portfolioLi{
-        display: grid;
-        grid-template-columns: 50% 50%;
+        /* display: grid;
+        grid-template-columns: 50% 50%; */
         margin-top:auto;
         margin-bottom:auto;
         margin:auto;    
@@ -175,12 +175,12 @@
     .description a{
         font-size:14px;
     }
-    .portfolioLi{
+    /* .portfolioLi{
         display: grid;
         grid-template-rows: auto auto;
         grid-template-columns: auto;
         text-align:center;
-    }
+    } */
 
     .description {
         border-top: black solid 1px;
