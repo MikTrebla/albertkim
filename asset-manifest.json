@@ -1,12 +1,20 @@
 {
-  "main.css": "static/css/main.59fa0757.css",
-  "main.css.map": "static/css/main.59fa0757.css.map",
-  "main.js": "static/js/main.96e8eec8.js",
-  "main.js.map": "static/js/main.96e8eec8.js.map",
+  "main.css": "static/css/main.7247820f.css",
+  "main.css.map": "static/css/main.7247820f.css.map",
+  "main.js": "static/js/main.ea346a11.js",
+  "main.js.map": "static/js/main.ea346a11.js.map",
   "static\\media\\ETHR(gif).gif": "static/media/ETHR(gif).5856c41c.gif",
   "static\\media\\LnC(gif).gif": "static/media/LnC(gif).4d5b1550.gif",
   "static\\media\\Resume(PDF).pdf": "static/media/Resume(PDF).fdea2e57.pdf",
-  "static\\media\\jumbo.png": "static/media/jumbo.24af5d96.png",
-  "static\\media\\logo.ethr.new.jpg": "static/media/logo.ethr.new.91aba405.jpg",
-  "static\\media\\lookncook.png": "static/media/lookncook.ec4276e4.png"
+  "static\\media\\css.png": "static/media/css.8f047bb8.png",
+  "static\\media\\fiction-jeans.png": "static/media/fiction-jeans.f101bed2.png",
+  "static\\media\\handlebars.png": "static/media/handlebars.9730fec0.png",
+  "static\\media\\html.png": "static/media/html.5df52566.png",
+  "static\\media\\jes-es6.jpg": "static/media/jes-es6.3d159447.jpg",
+  "static\\media\\jquery.png": "static/media/jquery.a5872891.png",
+  "static\\media\\mysql.png": "static/media/mysql.255b77e2.png",
+  "static\\media\\nodejs.png": "static/media/nodejs.9100f2eb.png",
+  "static\\media\\react.png": "static/media/react.84d44aff.png",
+  "static\\media\\rest-api.png": "static/media/rest-api.693896a0.png",
+  "static\\media\\twitterbootstrap.png": "static/media/twitterbootstrap.73844123.png"
 }
