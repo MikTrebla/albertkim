@@ -10,7 +10,7 @@
 }
 
 #skills-list{
-    width:25vw;
+    width:40vw;
     margin: 0 auto;
     text-align:center;
     padding:0px;
@@ -19,7 +19,7 @@
 
 #skills-list li{
     border:2px solid white(41, 101, 231);
-    background-color:rgba(196, 194, 194, 0.904);
+    /* background-color:rgba(196, 194, 194, 0.904); */
     border-radius:2px;
     list-style-type: none;
     display:inline-block;
@@ -37,7 +37,7 @@
 
 @media (max-width: 600px) {
     #skills-list{
-        width:50vw;
+        width:80vw;
         margin: 0 auto;
         text-align:center;
         padding:0px;
