@@ -5,7 +5,7 @@ import './Landing.css';
 class Landing extends Component {
     render () {
         return (
-            <div  style={{ textAlign:"center", paddingTop:"30vh", top:"50%", width:"100vw", height:"100vh"}}>
+            <div  style={{ textAlign:"center", width:"100vw", height:"100vh"}}>
                 <h1 className='animated zoomIn'>
                     Hello,
                 </h1>

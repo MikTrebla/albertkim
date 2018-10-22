@@ -11,9 +11,9 @@ class Skills extends Component {
                     <ul id='skills-list'>
                         <li><img className='logo' alt='js-es6' src={require('./TechLogos/jes-es6.jpg')}></img></li>
                         <li><img className='logo' alt='jQuery' src={require('./TechLogos/jquery.png')}></img></li>
-                        <li><img className='logo' alt='expressjs' src={require('./TechLogos/expressjs.png')}></img></li>
                         <li><img className='logo' alt='reactjs' src={require('./TechLogos/react.png')}></img></li>
                         <li><img className='logo' alt='nodejs' src={require('./TechLogos/nodejs.png')}></img></li>
+                        <li><img className='logo' alt='expressjs' src={require('./TechLogos/expressjs.png')}></img></li>
                         <li><img className='logo' alt='mongodb' src={require('./TechLogos/mongodb.png')}></img></li>
                         <li><img className='logo' alt='mysql' src={require('./TechLogos/mysql.png')}></img></li>
                         <li><img className='logo' alt='restAPI' src={require('./TechLogos/rest-api.png')}></img></li>

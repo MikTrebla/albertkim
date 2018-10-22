@@ -14,7 +14,7 @@ class Home extends Component {
                             <div>
                                 <h3>About</h3>
                                 <p>
-                                    Hello, my name is Albert Kim and I am a Web Developer based in the Los Angeles area. Currently, I am using a MERN stack to build my applications. I am passionate about web development and learning new languages and technolgies. I currently focus on front end roles, but I am always open to new opportunities.
+                                    Hello, my name is Albert Kim and I am a Web Developer based in the Los Angeles area. Currently, I am using a MERN stack to build my applications. I am passionate about web development and learning new languages and technolgies. Currently looking for new opportunities.
                                 </p>
                             </div>
 

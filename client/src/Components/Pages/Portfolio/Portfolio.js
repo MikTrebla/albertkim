@@ -10,10 +10,20 @@ class Portfolio extends Component {
                     <div id='project-details'>
                         <div id='project-header'>
                             <h1>Look & Cook</h1>
+                            <a className='project-links' href='https://lookncook.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website</a>
+                            <a className='project-links' href='https://github.com/bnsnchz/lookncook' target = '_blank' rel='noopener noreferrer'>Github</a>
                         </div>
                         <p>
-                            A recipe web application that allows users to search, save, view, and share their own personal recipes. Features interactive timers that are detected through the recipe instructions.
+                            A recipe web application which allows users to search, save, view, and share their own personal recipes. Features interactive timers that are detected through the recipe instructions.
                         </p>
+                        <br></br>
+                        <ul>
+                            <li>Constructed both front-end and back-end API Routing.</li>
+                            <li>Created the login, sessions, cookies and passed them as props to different React components.</li>
+                            <li>Designed the form-submission to convert uploaded images to base64 string and save it to the database. The base64 string was also converted back into a usable image source. </li>
+                            <li>Created by a group of 4 in a 1-week deadline.</li>
+                            <li>Lead daily Scrum meetings to delegate tasks and assign deadlines.</li>
+                        </ul>
                         <br></br>
 
                         <div id='technology-list'>
@@ -35,18 +45,26 @@ class Portfolio extends Component {
                     <div id='project-image'>
                         <img src={require(`./Images/LnC(gif).gif`)} alt='new-format'></img>    
                     </div>
-                    <a className='project-links' href='https://lookncook.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website</a>
-                    <a className='project-links' href='https://github.com/bnsnchz/lookncook' target = '_blank' rel='noopener noreferrer'>Github</a>
+                    
                 </div>
     
                 <div id='project-container'>
                     <div id='project-details'>
                         <div id='project-header'>
                             <h1>ETHR</h1>
+                            <a className='project-links' href='http://ethr.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website</a>
+                            <a className='project-links' href='https://github.com/MikTrebla/Project-2' target = '_blank' rel='noopener noreferrer'>Github</a>
                         </div>
                         <p>
                             Utilizes a game database API which allows users to search and post reviews on specific game titles.
                         </p>
+                        <br></br>
+                        <ul>
+                            <li>Designed the user login, sessions, cookies and REST API</li>
+                            <li>Contributed to the front-end using Handlebars templating and CSS.</li>
+                            <li>Created by a group of 4 in a 1-week deadline.</li>
+                            <li>Lead daily Scrum meetings to delegate tasks and assign deadlines.</li>
+                        </ul>
                         <br></br>
                         <div id='technology-list'>
                             <p>
@@ -68,14 +86,14 @@ class Portfolio extends Component {
                     <div id='project-image'>
                         <img src={require(`./Images/ETHR(gif).gif`)} alt='ethr'></img>
                     </div> 
-                    <a className='project-links' href='http://ethr.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website</a>
-                    <a className='project-links' href='https://github.com/MikTrebla/Project-2' target = '_blank' rel='noopener noreferrer'>Github</a>
                 </div>
 
                 <div id='project-container'>
                     <div id='project-details'>
                         <div id='project-header'>
                             <h1>fiction-jeans</h1>
+                            <a className='project-links' href='https://fictionjeans.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website</a>
+                            <a className='project-links' href='https://github.com/MikTrebla/fiction-jeans' target = '_blank' rel='noopener noreferrer'>Github</a>
                             <h3>Work in progress.</h3>
                         </div>
                         <p>
@@ -101,8 +119,6 @@ class Portfolio extends Component {
                     <div id='project-image'>
                         <img src={require(`./Images/fiction-jeans.png`)} alt='fiction-jeans'></img>
                     </div>
-                    <a className='project-links' href='https://fictionjeans.herokuapp.com/' target='_blank' rel='noopener noreferrer'> Live Website</a>
-                    <a className='project-links' href='https://github.com/MikTrebla/fiction-jeans' target = '_blank' rel='noopener noreferrer'>Github</a>
                 </div>
             </div>
         )

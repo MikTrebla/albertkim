@@ -9,12 +9,13 @@
     width:90vw;
     margin:0 auto;
     display:block;
-    height:500px;
+    height:fit-content;
 }
 #project-header {
     width:100%;
     display:block;
     padding-top:20px;
+    text-align:center;
 }
 #project-header h1 {
     display:block;
@@ -43,8 +44,13 @@
 #project-details p {
     text-align:left;
     margin: 0 auto;
+    padding: 0px 0px;
 }
-
+#project-details ul {
+    margin: 0 auto;
+    padding:0px 0px;
+    text-align: left;
+}
 #technology-list {
     display:block;
 }
@@ -72,6 +78,7 @@
     color:inherit;
     cursor: pointer;
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 
@@ -80,7 +87,7 @@
         width:50%;
     }
     #project-image img {
-        width:500px;
+        width:600px;
     }
     #technology-list {
         width:400px;
@@ -90,6 +97,9 @@
         width:50%;
     }
     #project-details p {
+        width:400px;
+    }
+    #project-details ul {
         width:400px;
     }
 }
@@ -108,6 +118,9 @@
         width:350px;
     }
     #project-details p {
+        width:350px;
+    }
+    #project-details ul {
         width:350px;
     }
     #technology-list {
@@ -141,7 +154,7 @@
         width:100%;
     }
     #project-container {
-        height:700px;
+        height:fit-content;
     }
     .project-links {
         display:block;
@@ -158,11 +171,13 @@
     .logo {
         width:75px;
     }
-    #project-container {
-        height:600px;
+
+}
+@media(max-width:375px) {
+    #project-details ul {
+        width:270px;
     }
 }
-
 @media (max-width:320px) {
     .logo {
         width:50px;
@@ -173,11 +188,15 @@
         text-align:center;
         margin: 0 auto;
     }
-
+    #project-details ul {
+        width:180px;
+    }
     #project-details p {
         width:200px;
     }
-
+    #project-details ul {
+        width:200px;
+    }
     #technology-list ul {
         width:200px;
         margin:0 auto;

@@ -14,3 +14,9 @@
 h1{
     font-size:45px;
 }
+
+@media (max-width:320px) {
+    h1 {
+        font-size:35px;
+    }
+}

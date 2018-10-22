@@ -74,8 +74,8 @@
     margin:0 auto;
     text-align:center;
     /* width:fit-content; */
-    transition: all .7s ease-out;
-    transition-delay: .3s;
+    transition: all .5s ease-out;
+    /* transition-delay: .3s; */
 }
 
 .navbarLi {
