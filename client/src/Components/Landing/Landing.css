@@ -1,3 +1,9 @@
+#landing {
+    /* background: linear-gradient(rgb(16, 106, 196), rgb(81, 161, 241), rgb(132, 186, 240)); */
+    /* overflow-y:scroll; */
+    text-align:center;
+    margin: 25vh auto;
+}
 .zoomInRight {
     animation-delay:.5s;
 }
@@ -6,7 +12,11 @@
     animation-delay:1s;
 }
 
-.fa-arrow-down {
+.arrow {
+    animation-delay:1.5s;
+    font-size:45px;
+}
+.bounce{
     /* animation-duration:1s; */
     animation-iteration-count: infinite;
 }
@@ -14,9 +24,16 @@
 h1{
     font-size:45px;
 }
-
+@media (max-width:420px) {
+    .zoomInRight, .zoomInLeft, .arrow, .zoomIn{
+        font-size:35px;
+    }
+    #landing {
+        width:90vw;
+    }
+}
 @media (max-width:320px) {
     h1 {
-        font-size:35px;
+        font-size:30px;
     }
 }

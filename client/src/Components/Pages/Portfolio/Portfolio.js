@@ -88,7 +88,7 @@ class Portfolio extends Component {
                     </div> 
                 </div>
 
-                <div id='project-container'>
+                {/* <div id='project-container'>
                     <div id='project-details'>
                         <div id='project-header'>
                             <h1>fiction-jeans</h1>
@@ -119,7 +119,7 @@ class Portfolio extends Component {
                     <div id='project-image'>
                         <img src={require(`./Images/fiction-jeans.png`)} alt='fiction-jeans'></img>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }

@@ -18,21 +18,20 @@ hr {
 }
 #about h3{
     text-decoration:underline;
-    font-size:35px;
+    font-size:60px;
     margin: auto auto;
     text-align:center;
 }
 #about p{
-    font-size:20px;
+    font-size:30px;
     max-width: 40vw;
     margin: auto;
-    text-align:left;    
+    text-align:center;    
 }
 #contact {
     padding:0;
     padding:none;
     width:100%;
-
 
 }
 #projects {
@@ -59,7 +58,7 @@ hr {
         margin-left: auto;
         margin-right:auto;
         display:block;
-        text-align:left;
+        text-align:center;
         font-size:12px;
         width:500px;
         max-width: 80vw;
@@ -79,6 +78,7 @@ hr {
 @media (max-width: 480px) {
     #about p {
         width:400px;
+        font-size:20px;
     }
 }
 

@@ -24,7 +24,7 @@ class Contact extends Component {
         tooltip[1].style.display = "block";
         tooltip[1].style.opacity = "1";
     }
-    hideToolTip = event => {
+    hideToolTip = () => {
         const tooltip = document.getElementsByTagName("span");
         tooltip[1].style.opacity ="0";
         tooltip[1].innerHTML = 'Click to Copy';
@@ -52,8 +52,10 @@ class Contact extends Component {
                         <a href='https://github.com/MikTrebla' title='Github' target='_blank' rel='noopener noreferrer'><i className="fab fa-github-alt"></i></a>
                     </li>
                     <li id='resume'>
-                        <a href={require('./Assets/Resume(PDF).pdf')} target='_blank'><i title='Resume(PDF)' className="fas fa-file-alt"></i>
+                        <a href={require('./Assets/AlbertKim-Resume.pdf')} target='_blank'><i title='Resume(PDF)' className="fas fa-file-alt">
+                        </i>
                         </a>
+                        
                     </li>
 
                 </ul>

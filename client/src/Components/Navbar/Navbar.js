@@ -61,7 +61,7 @@ class Navbar extends Component {
                                 <a href='https://github.com/MikTrebla' title='Github' target='_blank' rel='noopener noreferrer'><i className="fab fa-github-alt"></i></a>
                             </li>
                             <li className='navbarLi socials'>
-                                <a href={require('./Assets/Resume(PDF).pdf')} target='_blank'><i title='Resume(PDF)' className="fas fa-file-alt"></i>
+                                <a href={require('./Assets/AlbertKim-Resume.pdf')} target='_blank'><i title='Resume(PDF)' className="fas fa-file-alt"></i>
                                 </a>
                             </li>
                             </ul>
